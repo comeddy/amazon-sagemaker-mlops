@@ -19,9 +19,15 @@ description: >-
 
 ![](.gitbook/assets/screen-shot-2021-04-01-at-6.43.25-pm%20%281%29.png)
 
+{% hint style="warning" %}
+Version 2 생성은 어느시점에 생기나요? CodePipeline의 Modelbuild pipeline이 완료되어야 생성됩니다. 모델승인 담당자의 approve 대기상태라 보시면 됩니다.   
+{% endhint %}
+
    5. 오른쪽 상단의 "Update status"를 클릭하여, 'Status'에서 'Approved'을 선택하고 'Update status'를 클릭합니다.
 
-![](.gitbook/assets/screen-shot-2021-04-01-at-6.43.42-pm.png)
+![&#xC0C8;&#xB85C;&#xC6B4; &#xBAA8;&#xB378;&#xBC84;&#xC804; &#xD654;&#xBA74;](.gitbook/assets/screen-shot-2021-04-01-at-6.43.42-pm.png)
+
+![](.gitbook/assets/screen-shot-2021-04-02-at-10.07.52-am.png)
 
 {% hint style="warning" %}
 * SageMaker Pipelines의 Mode Registory의 Model Group에 등록된 모델을 승인했습니다. 
