@@ -2,7 +2,7 @@
 
 * [Eventengine 사용](README.md)
 
-## Project
+## Projects
 
 ---
 
