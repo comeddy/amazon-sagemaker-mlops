@@ -4,7 +4,6 @@
 
 ## Projects
 
----
 
 * [1. Eventengine 사용](eventengine.md)
 * [2. SageMaker 프로젝트로 MLOps 자동화](sagemaker-mlops.md)
