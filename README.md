@@ -1,37 +1,22 @@
 ---
-description: 본 Immersion Day 핸즈온 실습을 위해 다음과 같이 준비를 합니다.
+description: SageMaker 프로젝트를 사용하여 CI/CD로 MLOps 솔루션을 실습 및 구성합니다.
 ---
 
-# Eventengine 사용
+# Amazon SageMaker Pipelines
 
-* [https://dashboard.eventengine.run/login](https://dashboard.eventengine.run/login) 사이트에 접속합니다.
+**실습구성**
 
-![](.gitbook/assets/image%20%2813%29.png)
-
-* 제공받은 개인의 해쉬코드\(ex 849adca195e0\)를 입력합니다.
-* 본인 해시코드는 SA분을 통해 제공받습니다.
-
-![](.gitbook/assets/image%20%283%29.png)
-
-* OTP 클릭후 본인 이메일을 넣으시면 이메일로 Passcode\(6-digit\)를 제공드립니다. 
-
-![](.gitbook/assets/image%20%2811%29.png)
-
-* AWS console 을 클릭합니다.
-
-![](.gitbook/assets/image%20%282%29.png)
+![](.gitbook/assets/.jpg%20%281%29.jpeg)
 
 
 
-* Open AWS Consoles 를 클릭합니다.
-
-![](.gitbook/assets/image%20%288%29.png)
-
-* 축하합니다!! 실습용 핸즈온 사이트 구성이 완성되었습니다. 서비스 리전은 우측상단에서 확인하실수 있습니다.
-
-![](.gitbook/assets/image%20%286%29.png)
-
-{% hint style="info" %}
-본 실습 사이트는 최소 12시간 이상 유효하도록 설정되었습니다.
-{% endhint %}
+1. MLOps 템플릿을 사용하여 프로젝트 생성합니다. 이때 Service Catalog의 Cloudformation을 이용합니다.
+2. CodeCommit에 변경소스를 커밋하고 Push합니다.
+3. CodePipeline의 CodeBuild가 실행됩니다.
+   1. 커밋된 소스변경발생시 EventBridge 이벤트발생합니다.
+4. CodeBuild에서 SageMaker Pipeline을 실행합니다.
+5. Model group에 등록된 학습결과의 모델을 승인합니다.
+6. 모델의 승인을 감지하여 CodePipeline\(Modeldeploy\)을 실행합니다.
+7. CodeBuild에서 CloudFormation을 이용하여 Staging 에 대한 추론 endpoint를 구성합니다.
+8. Pipeline 의 승인을 감지하여 6번과 마찬가지로 CloudFormation에서 Prod환경에 대한 추론 endpoint를 구성합니다.
 
