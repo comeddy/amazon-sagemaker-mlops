@@ -5,7 +5,7 @@ description: >-
   MLOps 자동화를 참조하십시오 .
 ---
 
-# 6. Pipeline 살표보기
+# 6. Pipeline 살표보기\(옵션\)
 
 1. Pipelines 메뉴을 선택한후 Pipeline 이름을 클릭합니다.
 
@@ -15,13 +15,11 @@ description: >-
 
 ![](.gitbook/assets/screen-shot-2021-04-01-at-8.47.40-pm%20%281%29.png)
 
-  3. pipeline Graph의 단계중 'PreprocessAbaloneData' 클릭하여 Output, logs, Information 을 체크합니다.
+   3. pipeline Graph의 단계중 'PreprocessAbaloneData' 클릭하여 Output, logs, Information 을 체크합니다.
 
 ![](.gitbook/assets/screen-shot-2021-04-01-at-8.50.08-pm.png)
 
-
-
-   4. 'Start an execution'을 클릭하여 '**Execution-Test**'를 입력하여, 커스텀 Execution 실행을 시도해봅니다. \(ProcessingInstanceCount 를 2대로 설정\)
+    4. 'Start an execution'을 클릭하여 '**Execution-Test**'를 입력하여, 커스텀 Execution 실행을 시도해봅니다. \(ProcessingInstanceCount 를 2대로 설정\)
 
 ![](.gitbook/assets/screen-shot-2021-04-01-at-9.02.33-pm.png)
 
