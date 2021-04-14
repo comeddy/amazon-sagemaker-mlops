@@ -1,5 +1,5 @@
 ---
-description: SageMaker 프로젝트를 사용하여 CI/CD로 MLOps 솔루션을 구성해봅니다. 전체 아키텍처는 아래와 같습니다.
+description: SageMaker 프로젝트를 사용하여 CI/CD로 MLOps 솔루션을 구성해봅니다. 전체 아키텍처와 플로우는 다음과 같습니다.
 ---
 
 # Amazon SageMaker Pipelines
