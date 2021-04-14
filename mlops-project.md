@@ -17,7 +17,7 @@ sm_client=boto3.client("sagemaker")
 sm_client.delete_project(ProjectName="MLOpsProject")
 ```
 
-    3. 프로젝트가 생성 한 AWS CloudFormation 스택을 삭제합니다. 2 개의 스택이 있습니다. 하나는 스테이징 용이고 다른 하나는 프로덕션 용입니다. 모두 지웁니다.
+    3. 프로젝트가 생성 한 AWS CloudFormation 스택을 삭제합니다. 2 개의 스택이 있습니다. 하나는 스테이징 용이고 다른 하나는 프로덕션 용입니다. 모두 삭제합니다.
 
-    4. 버킷안에 객체를 삭제한 후 버킷을 삭제합니다.
+    4. S3 버킷안에 객체를 삭제한 후 버킷을 삭제합니다.
 

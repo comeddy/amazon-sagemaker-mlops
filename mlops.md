@@ -10,11 +10,11 @@ description: SageMaker Studio를 사용하여 SageMaker MLOps 프로젝트를 �
 
 ![](.gitbook/assets/image%20%2814%29.png)
 
-* IAM역할 생성시 모든 S3 버킷을 선택하고 '역할 생성'을 클릭합니다.
+* IAM역할 생성시 특정 S3 버킷을 선택하는것을 추천드리오나 여기선 모든 S3 버킷을 선택하고 '역할 생성'을 클릭합니다. 
 
 ![](.gitbook/assets/image%20%284%29.png)
 
-2. 선택 **구성 요소 및 레지스트리를** 다음 선택 **프로젝트** 드롭 다운 목록에서.
+2. 선택 **구성 요소 및 레지스트리를** 다음 선택 **프로젝트** 드롭 다운 목록에서 Project 선택합니다.
 
 ![](.gitbook/assets/screen-shot-2021-04-01-at-3.32.22-pm.png)
 

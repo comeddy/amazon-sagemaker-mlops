@@ -22,7 +22,7 @@ description: SageMaker 프로젝트를 사용하여 CI/CD로 엔드투엔드 ML 
 
 SageMaker 프로젝트를 사용하면 데이터 과학자 및 개발자 팀이 기계 학습 비즈니스 문제를 해결할 수 있습니다. 지속적 통합 및 지속적 전달 \(CI / CD\)을 사용하여 모델 구축 및 배포 파이프 라인을 자동화하는 SageMaker 제공 MLOP 템플릿으로 SageMaker 프로젝트를 생성 할 수 있습니다. SageMaker에서 제공 한 템플릿은 선택한 템플릿에 따라 모델 구축, 교육 및 배포를 포함하여 완전한 종단 간 MLOps 시스템에 필요한 초기 설정을 프로비저닝합니다.
 
-SageMaker 프로젝트는 엔드 투 엔드 ML 솔루션을 쉽게 생성 할 수있는 AWS Service Catalog 프로비저닝 제품입니다. AWS Service Catalog에 대한 자세한 내용은 AWS Service Catalog [란 무엇입니까?를](https://docs.aws.amazon.com/servicecatalog/latest/adminguide/introduction.html) 참조하십시오 .
+SageMaker 프로젝트는 엔드 투 엔드 ML 솔루션을 쉽게 생성 할 수있는 AWS Service Catalog 프로비저닝 제품입니다. AWS Service Catalog에 대한 자세한 내용은 [AWS Service Catalog](https://docs.aws.amazon.com/servicecatalog/latest/adminguide/introduction.html) 란 무엇입니까?를 참조하십시오 .
 
 각 SageMaker 프로젝트에는 프로젝트에서 생성 된 모든 SageMaker 및 AWS 리소스에 전달되는 고유 한 이름과 ID가 있습니다. 이름과 ID를 사용하여 프로젝트와 관련된 모든 항목을 볼 수 있습니다. 여기에는 다음이 포함됩니다.
 
