@@ -2,7 +2,7 @@
 description: SageMaker 프로젝트를 사용하여 CI/CD로 MLOps 솔루션을 실습 및 구성합니다.
 ---
 
-# SageMaker Project
+# Amazon SageMaker Pipelines
 
 **실습구성**
 

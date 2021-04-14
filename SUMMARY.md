@@ -1,6 +1,6 @@
 # Table of contents
 
-* [SageMaker Project](README.md)
+* [Amazon SageMaker Pipelines](README.md)
 
 ## Projects
 
