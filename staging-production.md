@@ -1,4 +1,4 @@
-# 5. Staging 과 Production 배포
+# 6. Staging 과 Production 배포
 
 1. EventBridge 승인을 감지하여 모델배포용 CodePipeline이 실행됩니다.
 

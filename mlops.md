@@ -2,7 +2,7 @@
 description: SageMaker Studio를 사용하여 SageMaker MLOps 프로젝트를 생성합니다.
 ---
 
-# 2. SageMaker MLOps 프로젝트 생성
+# 3. SageMaker MLOps 프로젝트 생성
 
  **SageMaker Studio에서 프로젝트를 생성하려면**
 

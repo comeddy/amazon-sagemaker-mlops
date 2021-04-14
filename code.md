@@ -4,7 +4,7 @@ description: >-
   CodePipleline에 의해서 Build 프로세스가 완료됩니다.
 ---
 
-# 3. Code 수정 및 커밋
+# 4. Code 수정 및 커밋
 
 1. SageMaker Studio 왼쪽 창에서 파일 브라우저 아이콘을 선택합니다.
 2. "pipelines/abalone"으로 이동하여 "pipeline.py"을 클릭합니다.

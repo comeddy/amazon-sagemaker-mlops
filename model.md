@@ -4,7 +4,7 @@ description: >-
   endpoint가 배포됩니다.
 ---
 
-# 4. Model 승인
+# 5. Model 승인
 
 1. 외쪽 창에서 "Components and registeries" 버튼을 클릭합니다.
 2. 방금 만든 프로젝트를 선택합니다.

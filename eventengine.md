@@ -2,7 +2,7 @@
 description: 본 Immersion Day 핸즈온 실습을 위해 다음과 같이 준비를 합니다.
 ---
 
-# Eventengine 사용
+# 1. Eventengine 사용
 
 * [https://dashboard.eventengine.run/login](https://dashboard.eventengine.run/login) 사이트에 접속합니다.
 

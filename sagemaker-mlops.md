@@ -2,7 +2,7 @@
 description: SageMaker 프로젝트를 사용하여 CI/CD로 엔드투엔드 ML 솔루션을 생성합니다.
 ---
 
-# 1. SageMaker 프로젝트로 MLOps 자동화
+# 2. SageMaker 프로젝트로 MLOps 자동화
 
 **실습구성**
 
