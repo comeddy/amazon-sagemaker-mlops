@@ -1,5 +1,7 @@
 ---
-description: 본 Immersion Day 핸즈온 실습을 위해 다음과 같이 준비를 합니다.
+description: >-
+  본 Immersion Day 핸즈온 실습을 위해 다음과 같이 준비를 합니다. 이미 AWS 계정이 있고 IAM 관리자가 액세스할 수 있는 경우
+  이 페이지를 건너뛸 수 있습니다
 ---
 
 # 1. Eventengine 사용
