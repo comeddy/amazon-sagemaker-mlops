@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Eventengine 사용](README.md)
+* [SageMaker Project](README.md)
 
 ## Projects
 
