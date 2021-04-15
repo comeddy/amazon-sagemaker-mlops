@@ -6,7 +6,7 @@ description: >-
 
 # Amazon SageMaker Pipelines
 
-SageMaker Pipelines을 사용하여 CI/CD로 MLOps 솔루션을 구성해봅니다. 전체 아키텍처와 플로우는 다음과 같습니다.
+SageMaker Pipelines을 사용하여 CI/CD기반 MLOps 솔루션을 구성해 봅니다. 
 
 ![Architecture of SageMaker Pipelines](.gitbook/assets/.jpg%20%281%29.jpeg)
 
