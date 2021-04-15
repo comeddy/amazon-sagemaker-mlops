@@ -15,7 +15,7 @@ description: >-
 
 ![](.gitbook/assets/screen-shot-2021-04-01-at-8.47.40-pm%20%281%29.png)
 
-   3. pipeline Graph의 단계중 'PreprocessAbaloneData' 클릭하여 Output, logs, Information 을 체크합니다.
+   3. pipeline Graph의 단계중 'PreprocessAbaloneData' 클릭하여 Output, logs, Information 을 살표봅니다.
 
 ![](.gitbook/assets/screen-shot-2021-04-01-at-8.50.08-pm.png)
 
@@ -33,7 +33,7 @@ description: >-
 
 ![](.gitbook/assets/screen-shot-2021-04-01-at-10.00.34-pm.png)
 
-  7. Pending 상태의 Version 3의 모델을 승인합니다.
+  7. Pending 상태의 Version 3의 모델을 확인 후 승인합니다.
 
 ![](.gitbook/assets/screen-shot-2021-04-01-at-10.01.16-pm.png)
 
@@ -41,7 +41,7 @@ description: >-
 
 ![](.gitbook/assets/screen-shot-2021-04-01-at-9.50.37-pm.png)
 
- 9. Pipeline의 DeployStaging 진행을 거처 Prod Deploy 승인 대기상태에서 승인시 Prod Deploy가 완료됩니다.
+ 9. 동시에 Pipeline의 DeployStaging 진행을 거처 Prod Deploy 승인 대기상태에서 승인시 Prod Deploy가 완료됩니다.
 
 ![](.gitbook/assets/screen-shot-2021-04-01-at-8.07.03-pm.png)
 
