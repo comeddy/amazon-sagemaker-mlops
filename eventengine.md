@@ -15,10 +15,11 @@ description: >-
 
 ![](.gitbook/assets/image%20%2817%29.png)
 
-* OTP 클릭후 본인 이메일을 넣으시면 이메일로 Passcode\(6-digit\)를 제공드립니다. 
+* Email One-Time Password\(OTP\) 클릭후 이메일을 넣으시면 Passcode\(6-digit\)를 메일로 제공드립니다. 
 
-![](.gitbook/assets/image%20%2811%29.png)
+![](.gitbook/assets/screen-shot-2021-05-18-at-3.09.47-am.png)
 
+* Email One-Time Password\(OTP\) 클릭후 이메일을 넣으시면 Passcode\(6-digit\)를 메일로 제공드립니다. 
 * AWS console 을 클릭합니다.
 
 ![](.gitbook/assets/image%20%282%29.png)
