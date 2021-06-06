@@ -18,11 +18,9 @@ description: 지속적 배포 및 전달을 사용을 위해 CodePipeline 으로
 
    4. Staging 배포단계의 endpoint를 확인후 Deploy 담당자는 Production 승인진행을 합니다.
 
-![](.gitbook/assets/screen-shot-2021-06-06-at-9.09.00-pm.png)
+![&#xBC30;&#xD3EC; &#xC2B9;&#xC778; &#xAC80;&#xD1A0;](.gitbook/assets/screen-shot-2021-06-06-at-9.11.32-pm.png)
 
-
-
-  5. Production 승인배포 확인합니다.
+  5. Production 승인배포 확인합니다. \(Staging에서 DeployProd간에 전환을 비활성하고자 할경우 전환 비활성화를 선택할수 있습니다.\)
 
 ![](.gitbook/assets/image%20%2812%29.png)
 
