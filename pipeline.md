@@ -41,5 +41,7 @@ description: >-
 
 ![](.gitbook/assets/screen-shot-2021-04-01-at-9.50.37-pm.png)
 
+  7.  5~10분후 배포승인 과정을 거쳐 Production 배포 프로세스를 반복진행합니다.  
+
 
 
