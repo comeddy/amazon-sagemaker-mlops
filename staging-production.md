@@ -34,7 +34,9 @@ CodePipelines의 승인하고 Production 추론 엔드포인트가 배포되었�
 
 ![](.gitbook/assets/screen-shot-2021-04-01-at-9.42.34-pm.png)
 
-    SageMaker Project MLOps 성공적으로 마친것을 축하드립니다!!
+    
+
+SageMaker Project MLOps 성공적으로 마친것을 축하드립니다!!
 
 
 

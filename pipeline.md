@@ -19,31 +19,27 @@ description: >-
 
 ![](.gitbook/assets/screen-shot-2021-04-01-at-8.50.08-pm.png)
 
-    4. 'Start an execution'을 클릭하여 '**Execution-Test**'를 입력하여, 커스텀 Execution 실행을 시도해봅니다. \(ProcessingInstanceCount 를 2대로 설정\)
+    4. Pipelines 메뉴의 'MLOpsProject-p-xxxxxxxxxxxx'를 클릭 아래 화면으로 이동니다. 
+
+![](.gitbook/assets/screen-shot-2021-06-06-at-9.26.54-pm.png)
+
+   5. 'Start an execution'을 클릭합니다.
+
+![](.gitbook/assets/screen-shot-2021-06-06-at-9.26.31-pm.png)
+
+    6.  '**Execution-Test**'를 입력하여, 커스텀 Execution 실행을 시도해봅니다. \(ProcessingInstanceCount 를 2대로 설정\)
 
 ![](.gitbook/assets/screen-shot-2021-04-01-at-9.02.33-pm.png)
 
 
 
-  5. Execution Grape를 통해 단계별 과정을 확인합니다. 더이상 진행을 원하지 않을 경우 Stop을 클릭합니다.
+  5. Execution Graph를 통해 단계별 과정을 확인합니다. 더이상 진행을 원하지 않을 경우 Stop을 클릭합니다.
 
 ![](.gitbook/assets/screen-shot-2021-04-01-at-9.10.35-pm.png)
 
-  6. Pending 상태의 'Version 3'을 클릭합니다.
-
-![](.gitbook/assets/screen-shot-2021-04-01-at-10.00.34-pm.png)
-
-  7. Pending 상태의 Version 3의 모델을 확인 후 승인합니다.
-
-![](.gitbook/assets/screen-shot-2021-04-01-at-10.01.16-pm.png)
-
-  8. 'Execution-Test'의 Status가 Succeeded 상태가 되면, Parameters 메뉴에서 변경된 ProcessInstanceCount 값을 확인합니다.
+  6. 'Execution-Test'의 Status가 Succeeded 상태가 되면, Parameters 메뉴에서 변경된 ProcessInstanceCount 값을 확인합니다.
 
 ![](.gitbook/assets/screen-shot-2021-04-01-at-9.50.37-pm.png)
-
- 9. 동시에 Pipeline의 DeployStaging 진행을 거처 Prod Deploy 승인 대기상태에서 승인시 Prod Deploy가 완료됩니다.
-
-![](.gitbook/assets/screen-shot-2021-04-01-at-8.07.03-pm.png)
 
 
 
