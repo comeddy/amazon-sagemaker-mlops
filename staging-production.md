@@ -1,10 +1,10 @@
 ---
-description: 지속적 배포 및 전달을 사용을 위해 CodePipeline 으로 이동합니다.
+description: 지속적 배포 및 전달을 사용을 위해 CodePipeline 으로 이동 배포를 진행합니다.
 ---
 
 # 6. Staging 과 Production 배포
 
-1. 웹콘솔 상단에 CodePipeline 으로 이동합니다.
+1. 웹콘솔 상단에 CodePipeline 으로 이동하여 '**파이프라인**'을 선택 합니다.
 
 ![](.gitbook/assets/screen-shot-2021-04-20-at-2.22.26-pm.png)
 
@@ -18,7 +18,7 @@ description: 지속적 배포 및 전달을 사용을 위해 CodePipeline 으로
 
    4. Staging 배포단계의 endpoint를 확인후 Deploy 담당자는 Production 승인진행을 합니다.
 
-![](.gitbook/assets/screen-shot-2021-04-01-at-7.01.28-pm.png)
+![](.gitbook/assets/screen-shot-2021-06-06-at-9.09.00-pm.png)
 
 
 
