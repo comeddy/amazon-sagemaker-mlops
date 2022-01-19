@@ -42,4 +42,4 @@ MLOps 방식을 채택하면 다음과 같은 이점을 제공하여 ML 프로�
 
 ![](<.gitbook/assets/스크린샷 2022-01-20 오전 2.05.50.png>)
 
-4\. Studio 를 시작합ㄴ디ㅏStudio를 시작합니다.Studio를 시작합니다.Studio를 시작합니다.
+4\. Studio를 시작합니다.
