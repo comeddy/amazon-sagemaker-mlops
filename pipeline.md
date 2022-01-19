@@ -5,7 +5,7 @@ description: >-
   MLOps 자동화를 참조하십시오 .
 ---
 
-# 7. Pipeline 살표보기\(옵션\)
+# 7. Pipeline 살펴보기\(옵션\)
 
 1. Pipelines 메뉴을 선택한후 Pipeline 이름을 클릭합니다.
 
