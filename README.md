@@ -6,9 +6,9 @@ description: >-
 
 # Amazon SageMaker Pipelines
 
-SageMaker Pipelines을 사용하여 CI/CD기반 MLOps 솔루션을 구성해 봅니다. 
+SageMaker Pipelines을 사용하여 CI/CD기반 MLOps 솔루션을 구성해 봅니다.&#x20;
 
-![Architecture of SageMaker Pipelines](.gitbook/assets/.jpg%20%281%29.jpeg)
+![Architecture of SageMaker Pipelines](<.gitbook/assets/실습구성 (2).jpg>)
 
 ### 프로세스 플로우
 
@@ -18,7 +18,6 @@ SageMaker Pipelines을 사용하여 CI/CD기반 MLOps 솔루션을 구성해 봅
    1. 커밋된 소스변경발생시 EventBridge 이벤트발생합니다.
 4. CodeBuild에서 SageMaker Pipeline을 실행합니다.
 5. Model group에 등록된 학습결과의 모델을 승인합니다.
-6. 모델의 승인을 감지하여 CodePipeline\(Modeldeploy\)을 실행합니다.
+6. 모델의 승인을 감지하여 CodePipeline(Modeldeploy)을 실행합니다.
 7. CodeBuild에서 CloudFormation을 이용하여 Staging 에 대한 추론 endpoint를 구성합니다.
 8. Pipeline 의 승인을 감지하여 6번과 마찬가지로 CloudFormation에서 Prod환경에 대한 추론 endpoint를 구성합니다.
-
