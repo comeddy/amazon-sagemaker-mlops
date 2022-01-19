@@ -2,9 +2,9 @@
 
 ***
 
-### description: >- 이 절차는 파이프 라인을 직접 찾고 세부 정보 페이지를 보는 방법을 보여줍니다. 프로젝트의 일부인 파이프 라인은 프로젝트의 세부 정보 페이지에서도 찾을 수 있습니다. 프로젝트의 일부인 파이프 라인을 찾는 방법에 대한 자세한 내용은 SageMaker 프로젝트를 사용하여 MLOps 자동화를 참조하십시오.
+### 이 절차는 파이프 라인을 직접 찾고 세부 정보 페이지를 보는 방법을 보여줍니다. 프로젝트의 일부인 파이프 라인은 프로젝트의 세부 정보 페이지에서도 찾을 수 있습니다. 프로젝트의 일부인 파이프 라인을 찾는 방법에 대한 자세한 내용은 SageMaker 프로젝트를 사용하여 MLOps 자동화를 참조하십시오.
 
-## 7. Pipeline 살표보기(옵션)
+## 7. Pipeline 살보기(옵션)
 
 1. Pipelines 메뉴을 선택한후 Pipeline 이름을 클릭합니다.
 
@@ -14,7 +14,7 @@
 
 ![](<../.gitbook/assets/Screen Shot 2021-04-01 at 8.47.40 PM (1).png>)
 
-3\. pipeline Graph의 단계중 'PreprocessAbaloneData' 클릭하여 Output, logs, Information 을 살표봅니다.
+3\. pipeline Graph의 단계중 'PreprocessAbaloneData' 클릭하여 Output, logs, Information 을 살봅니다.
 
 ![](<../.gitbook/assets/Screen Shot 2021-04-01 at 8.50.08 PM.png>)
 
