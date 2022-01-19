@@ -4,9 +4,9 @@ description: SageMaker 프로젝트를 사용하여 CI/CD로 엔드투엔드 ML 
 
 # 2. SageMaker 프로젝트로 MLOps 자동화
 
-## SageMaker 프로젝트 란 무엇입니까? <a id="sagemaker-projects-whatis"></a>
+## SageMaker 프로젝트 란 무엇입니까? <a href="#sagemaker-projects-whatis" id="sagemaker-projects-whatis"></a>
 
-SageMaker 프로젝트를 사용하면 데이터 과학자 및 개발자 팀이 기계 학습 비즈니스 문제를 해결할 수 있습니다. 지속적 통합 및 지속적 전달 \(CI/CD\)을 사용하여 모델 구축 및 배포 파이프 라인을 자동화하는 SageMaker 제공 MLOP 템플릿으로 SageMaker 프로젝트를 생성 할 수 있습니다. SageMaker에서 제공 한 템플릿은 선택한 템플릿에 따라 모델 구축, 교육 및 배포를 포함하여 완전한 종단 간 MLOps 시스템에 필요한 초기 설정을 프로비저닝합니다.
+SageMaker 프로젝트를 사용하면 데이터 과학자 및 개발자 팀이 기계 학습 비즈니스 문제를 해결할 수 있습니다. 지속적 통합 및 지속적 전달 (CI/CD)을 사용하여 모델 구축 및 배포 파이프 라인을 자동화하는 SageMaker 제공 MLOP 템플릿으로 SageMaker 프로젝트를 생성 할 수 있습니다. SageMaker에서 제공 한 템플릿은 선택한 템플릿에 따라 모델 구축, 교육 및 배포를 포함하여 완전한 종단 간 MLOps 시스템에 필요한 초기 설정을 프로비저닝합니다.
 
 SageMaker 프로젝트는 엔드 투 엔드 ML 솔루션을 쉽게 생성 할 수있는 AWS Service Catalog 프로비저닝 제품입니다. AWS Service Catalog에 대한 자세한 내용은 [AWS Service Catalog](https://docs.aws.amazon.com/servicecatalog/latest/adminguide/introduction.html) 란 무엇입니까?를 참조하십시오 .
 
@@ -14,13 +14,13 @@ SageMaker 프로젝트는 엔드 투 엔드 ML 솔루션을 쉽게 생성 할 �
 
 * 파이프 라인 실행
 * 등록 된 모델
-* 배포 된 모델 \(엔드 포인트\)
+* 배포 된 모델 (엔드 포인트)
 * 데이터 세트
 * AWS 서비스 카탈로그 제품
 * AWS CodePipeline 파이프 라인
 * AWS CodeCommit 리포지토리
 
-### MLOps의 이점 <a id="sagemaker-projects-benefits"></a>
+### MLOps의 이점 <a href="#sagemaker-projects-benefits" id="sagemaker-projects-benefits"></a>
 
 MLOps 방식을 채택하면 다음과 같은 이점을 제공하여 ML 프로젝트의 시장 출시 시간을 단축 할 수 있습니다.
 
@@ -32,17 +32,14 @@ MLOps 방식을 채택하면 다음과 같은 이점을 제공하여 ML 프로�
 
 
 
-## 프로젝트 사용에 필요한 SageMaker Studio 권한 <a id="sagemaker-projects-studio-updates"></a>
+## 프로젝트 사용에 필요한 SageMaker Studio 권한 <a href="#sagemaker-projects-studio-updates" id="sagemaker-projects-studio-updates"></a>
 
 **관리자 및 도메인 실행 역할 사용자에 대한 프로젝트** 권한 을 활성화하려면
 
 1. [SageMaker 콘솔](https://console.aws.amazon.com/sagemaker/) 열기.
-2. 페이지 왼쪽 상단에서 **Amazon SageMaker Studio** 를 선택합니다 .
-3. 당신이 선택하면 **빠른 시작** 에서, **프로젝트** , 확인 **이 계정에 대한 SageMaker 프로젝트 템플릿을 활성화하고 Studio 사용자가** 사용할 수 있습니다.
+2. 페이지 왼쪽 상단에서 **Amazon SageMaker Studio** 를 선택합니다.
+3. **빠른 설정**에서, Amazon SageMaker가 계정을 구성하고 sageSAmazon SageMaker가 계정을 구성하고 SageMaker 도메인에 대한 권한을 설정하도록 합니다.&#x20;
 
-![](.gitbook/assets/screen-shot-2021-04-01-at-9.21.59-pm.png)
+![](<.gitbook/assets/스크린샷 2022-01-20 오전 2.05.50.png>)
 
-
-
-
-
+4\. Studio를 시작합니다.

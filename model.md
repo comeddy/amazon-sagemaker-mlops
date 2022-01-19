@@ -20,7 +20,7 @@ description: >-
 ![](.gitbook/assets/screen-shot-2021-06-06-at-8.50.12-pm.png)
 
 {% hint style="warning" %}
-Version 1은 어느시점에 완료되나요? CodePipeline의 Modelbuild pipeline이 완료되어야 생성됩니다. 모델승인 담당자의 approve 대기상태라 보시면 됩니다.  &#x20;
+Version 1은 생성된이유? CodePipeline의 Modelbuild pipeline이 완료되어야 생성됩니다. 모델승인 담당자의 approve 대기상태라 보시면 됩니다.  &#x20;
 {% endhint %}
 
 &#x20;  5\. 오른쪽 상단의 "Update status"를 클릭하여, 'Status'에서 'Approved'을 선택하고 'Update status'를 클릭합니다.
