@@ -11,6 +11,6 @@
 * [4. Code 수정 및 커밋](code.md)
 * [5. Model 승인](model.md)
 * [6. Staging 과 Production 배포](staging-production.md)
-* [7. Pipeline 살표보기\(옵션\)](pipeline.md)
+* [7. Pipeline 살펴보기\(옵션\)](pipeline.md)
 * [8. MLOps Project 리소스 정리](mlops-project.md)
 
