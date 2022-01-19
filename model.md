@@ -11,36 +11,34 @@ description: >-
 
 ![](.gitbook/assets/screen-shot-2021-04-01-at-6.41.26-pm.png)
 
-   3. "Model groups"탭을 선택하여 Model Group을 클릭합니다.
+&#x20;  3\. "Model groups"탭을 선택하여 Model Group을 클릭합니다.
 
 ![](.gitbook/assets/screen-shot-2021-04-01-at-6.42.20-pm.png)
 
-   4. Version 1를 클릭합니다.
+&#x20;  4\. Version 1를 클릭합니다.
 
 ![](.gitbook/assets/screen-shot-2021-06-06-at-8.50.12-pm.png)
 
 {% hint style="warning" %}
-Version 1은 어느시점에 완료되나요? CodePipeline의 Modelbuild pipeline이 완료되어야 생성됩니다. 모델승인 담당자의 approve 대기상태라 보시면 됩니다.   
+Version 1은 어느시점에 완료되나요? CodePipeline의 Modelbuild pipeline이 완료되어야 생성됩니다. 모델승인 담당자의 approve 대기상태라 보시면 됩니다.  &#x20;
 {% endhint %}
 
-   5. 오른쪽 상단의 "Update status"를 클릭하여, 'Status'에서 'Approved'을 선택하고 'Update status'를 클릭합니다.
+&#x20;  5\. 오른쪽 상단의 "Update status"를 클릭하여, 'Status'에서 'Approved'을 선택하고 'Update status'를 클릭합니다.
 
 ![update status](.gitbook/assets/screen-shot-2021-06-06-at-8.51.37-pm.png)
 
-  6. 모델 승인 관리자가 'Approved' 승인처리합니다.
+&#x20; 6\. 모델 승인 관리자가 'Approved' 승인처리합니다.
 
 ![update model version status](.gitbook/assets/screen-shot-2021-06-06-at-8.54.09-pm.png)
 
 ![Successfully updated Version 1 status](.gitbook/assets/screen-shot-2021-06-06-at-8.56.03-pm.png)
 
 {% hint style="warning" %}
-* SageMaker Pipeline의 Model Group에 등록된 모델을 승인했습니다. 
-* EventBridge 는 모델승인을 감지하여 모델배포 용 CodePipeline이 실행되고 Staging 환경에 대한 추론 endpoint가 Deploy 되었습니다. 
+* SageMaker Pipeline의 Model Group에 등록된 모델을 승인했습니다.&#x20;
+* EventBridge 는 모델승인을 감지하여 모델배포 용 CodePipeline이 실행되고 Staging 환경에 대한 추론 endpoint가 Deploy 되었습니다.&#x20;
 {% endhint %}
 
-      7. CodePipeline 모델 승인 파이프라인의 build가 3~5분뒤 완료 확인합니다.
+&#x20;     7\. CodePipeline 모델 승인 파이프라인의 build가 3\~5분뒤 완료 확인합니다.
 
 ![](.gitbook/assets/screen-shot-2021-06-06-at-9.01.22-pm.png)
-
-
 
