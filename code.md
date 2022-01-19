@@ -7,6 +7,7 @@ description: >-
 # 4. Code 수정 및 커밋
 
 1. SageMaker Studio 왼쪽 창에서 파일 브라우저 아이콘을 선택합니다.
+
 2. "sagemaker-mlopsproject-xxxxxxxxx-**modelbuild**/pipelines/abalone"으로 이동하여 "pipeline.py"을 클릭합니다.
 
 ![pipeline.py 소스 수정화면](.gitbook/assets/screen-shot-2021-04-01-at-5.26.01-pm.png)
