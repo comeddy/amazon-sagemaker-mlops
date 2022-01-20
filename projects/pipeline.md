@@ -16,7 +16,7 @@
 
 3\. pipeline Graph의 단계중 'PreprocessAbaloneData' 클릭하여 Output, logs, Information 을 살펴봅니다.
 
-![](<../.gitbook/assets/Screen Shot 2021-04-01 at 8.50.08 PM.png>)
+![](<../.gitbook/assets/스크린샷 2022-01-20 오후 3.02.49.png>)
 
 4\. Pipelines 메뉴의 'MLOpsProject-p-xxxxxxxxxxxx'를 클릭 아래 화면으로 이동니다.
 
@@ -30,9 +30,9 @@
 
 ![](<../.gitbook/assets/Screen Shot 2021-04-01 at 9.02.33 PM (1).png>)
 
-5\. Execution Graph를 통해 단계별 과정을 확인합니다. 더이상 진행을 원하지 않을 경우 Stop을 클릭합니다.
+5\. Execution Graph를 통해 단계별 과정을 확인합니다. 도중에 진행을 원하지 않을 경우 Stop을 클릭합니다.
 
-![](<../.gitbook/assets/Screen Shot 2021-04-01 at 9.10.35 PM.png>)
+![앙](<../.gitbook/assets/스크린샷 2022-01-20 오후 2.57.04.png>)
 
 6\. 'Execution-Test'의 Status가 Succeeded 상태가 되면, Parameters 메뉴에서 변경된 ProcessInstanceCount 값을 확인합니다.
 
