@@ -20,9 +20,14 @@
 
 ![](<../.gitbook/assets/스크린샷 2022-01-20 오후 3.58.53.png>)
 
+4\. 모델 훈련 단계에서 원하는 메뉴이동에 따라 CloudWatch 로그나 Training Job 으로 이동하실수 있습니다.
+
 ![](<../.gitbook/assets/스크린샷 2022-01-20 오후 3.59.08.png>)
 
 ![](<../.gitbook/assets/스크린샷 2022-01-20 오후 4.06.36.png>)
 
-모델 훈련 단계에서 원하는 메뉴이동에 따라 CloudWatch 로그나 Training Job 으로 이동하실수 있습니다.
+5\. Setting 이동하시어 Download pipeline definition file을 다운로드받아 전체 설정값 execution 별로 살펴보실수 있습니다.
 
+![](<../.gitbook/assets/스크린샷 2022-01-20 오후 4.29.55.png>)
+
+![](<../.gitbook/assets/스크린샷 2022-01-20 오후 4.29.39.png>)
