@@ -22,35 +22,7 @@
 
 ![](<../.gitbook/assets/스크린샷 2022-01-20 오후 3.59.08.png>)
 
-4\. Pipelines 메뉴의 'MLOpsProject-p-xxxxxxxxxxxx'를 클릭 아래 화면으로 이동니다.
+![](<../.gitbook/assets/스크린샷 2022-01-20 오후 4.06.36.png>)
 
-![](<../.gitbook/assets/Screen Shot 2021-06-06 at 9.26.54 PM.png>)
-
-5\. 'Start an execution'을 클릭합니다.
-
-![](<../.gitbook/assets/Screen Shot 2021-06-06 at 9.26.31 PM.png>)
-
-6\. '**Execution-Test**'를 입력하여, 커스텀 Execution 실행을 시도해봅니다. (ProcessingInstanceCount 를 2대로 설정)
-
-![](<../.gitbook/assets/Screen Shot 2021-04-01 at 9.02.33 PM (1).png>)
-
-![](<../.gitbook/assets/image (19).png>)
-
-5\. Execution Graph를 통해 단계별 과정을 확인합니다. 도중에 진행을 원하지 않을 경우 Stop을 클릭합니다.
-
-![](<../.gitbook/assets/스크린샷 2022-01-20 오후 2.57.04 (1).png>)
-
-![](<../.gitbook/assets/스크린샷 2022-01-20 오후 3.18.59.png>)
-
-6\. CodePipeline 서비스로 이동하여 모델배포 ApproveDeployment 승인단계 통해 DeployProd 배포과정을 진행합니다.
-
-![](<../.gitbook/assets/스크린샷 2022-01-20 오후 3.08.35.png>)
-
-7\. 검토단계서 담당자가 승인을 결정합니다.
-
-![](<../.gitbook/assets/스크린샷 2022-01-20 오후 3.20.24.png>)
-
-8\. 'Execution-Test'의 Status가 Succeeded 상태가 되면, Parameters 메뉴에서 변경된 ProcessInstanceCount 값을 확인합니다. 5\~10분후 배포승인 과정을 거쳐 Production 배포 프로세스를 반복진행합니다.
-
-![](<../.gitbook/assets/Screen Shot 2021-04-01 at 9.50.37 PM.png>)
+모델 훈련 단계에서 원하는 메뉴이동에 따라 CloudWatch 로그나 Training Job 으로 이동하실수 있습니다.
 
