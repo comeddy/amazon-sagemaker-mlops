@@ -14,7 +14,7 @@
 
 ![](<../.gitbook/assets/Screen Shot 2021-04-01 at 8.47.40 PM (1).png>)
 
-3\. pipeline Graph의 단계중 'PreprocessAbaloneData' 클릭하여 Output, logs, Information 을 살펴봅니다.
+3\. pipeline Graph의 단계중 'PreprocessAbaloneData' 클릭하여 ㅑㅜInput, Output, logs, Information 을 살펴봅니다.
 
 ![](<../.gitbook/assets/스크린샷 2022-01-20 오후 3.02.49.png>)
 
