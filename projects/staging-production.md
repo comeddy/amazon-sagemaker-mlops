@@ -12,7 +12,7 @@ description: 지속적 배포 및 전달을 사용을 위해 CodePipeline 으로
 
 ![](<../.gitbook/assets/Screen Shot 2021-04-01 at 6.45.19 PM.png>)
 
-3\. Staging 배포진행이 되고, 관리자의 승인(ApproveDeployment)전까지 대기를 합니다.
+3\. Staging 배포진행이 되고, 관리자의 배포 승인(ApproveDeployment)전까지 대기를 합니다.
 
 ![배포용 파이프라인 화면](<../.gitbook/assets/Screen Shot 2021-04-01 at 7.01.15 PM (1).png>)
 
