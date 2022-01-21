@@ -1,10 +1,12 @@
 ---
 description: >-
-  모델 소스코드변경 후 소스커밋과 푸시를 진행합니다. CodeCommit 에 소스가 커밋되면  ModelBuild 용
-  CodePipleline에 의해서 Build 프로세스가 완료됩니다.
+  모델 소스코드변경 후 소스커밋과 푸시를 진행합니다. CodeCommit에 소스가 커밋되면 ModelBuild CodePipleline에
+  의해서 Build 프로세스가 동작되며, Model 승인(approval)있을때까지 대기합니다.
 ---
 
 # 4. Code 수정 및 커밋
+
+
 
 1. SageMaker Studio 왼쪽 창에서 파일 브라우저 아이콘을 선택합니다.
 2. "sagemaker-mlopsproject-xxxxxxxxx-**modelbuild**/pipelines/abalone"으로 이동하여 "pipeline.py"을 클릭합니다.
