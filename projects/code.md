@@ -33,7 +33,7 @@ description: >-
 
 ![](<../.gitbook/assets/Screen Shot 2021-04-01 at 5.48.45 PM.png>)
 
-8\. CodeCommit에 커밋된 후 ModelBuild용 CodePipeline의 Build 프로세스가 진행됩니다.
+8\. CodeCommit에 커밋된 후 ModelBuild용 CodePipeline의 Build 프로세스가 진행됩니다. Model Approver 의 모델승인이 있기전까지 pending 상태를 유지합니다.&#x20;
 
 ![](<../.gitbook/assets/Screen Shot 2021-04-01 at 6.00.20 PM.png>)
 
