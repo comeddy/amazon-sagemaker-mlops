@@ -30,16 +30,16 @@ MLOps 방식을 채택하면 다음과 같은 이점을 제공하여 ML 프로�
 * **감사 가능성** -데이터 과학 실험에서 소스 데이터, **학습** 된 모델에 이르기까지 모든 입력 및 출력의 버전을 지정하면 모델이 구축 된 방법과 배포 된 위치를 정확하게 보여줄 수 있습니다.
 * **데이터 및 모델 품질** -MLOps를 사용하면 모델 편향을 방지하고 시간에 따른 데이터 통계 속성 및 모델 품질의 변경 사항을 추적하는 정책을 시행 할 수 있습니다.
 
-
-
 ## 프로젝트 사용에 필요한 SageMaker Studio 권한 <a href="#sagemaker-projects-studio-updates" id="sagemaker-projects-studio-updates"></a>
 
 **관리자 및 도메인 실행 역할 사용자에 대한 프로젝트** 권한 을 활성화하려면
 
 1. [SageMaker 콘솔](https://console.aws.amazon.com/sagemaker/) 열기.
 2. 페이지 왼쪽 상단에서 **Amazon SageMaker Studio** 를 선택합니다.
-3. **빠른 설정**에서, Amazon SageMaker가 계정을 구성하고 sageSAmazon SageMaker가 계정을 구성하고 SageMaker 도메인에 대한 권한을 설정하도록 합니다.&#x20;
+3. **빠른 설정 선택 합니다.** Amazon SageMaker가 계정을 구성하고 sageSAmazon SageMaker가 계정을 구성하고 SageMaker 도메인에 대한 권한을 설정하도록 합니다.
 
 ![](<../.gitbook/assets/스크린샷 2022-01-20 오전 2.05.50.png>)
 
 4\. Studio를 시작합니다.
+
+![](<../.gitbook/assets/스크린샷 2022-01-20 오전 10.04.59.png>)

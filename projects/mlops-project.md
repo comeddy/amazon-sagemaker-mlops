@@ -1,5 +1,7 @@
 ---
-description: Boto3 를 이용한 전체 리소스 정리에 3~5분정도 예상소요되며 S3 버킷 삭제는 개별적으로 객체를 제거 후 삭제합니다.
+description: >-
+  이벤트엔진사용 경우는 리소스 삭제과정이 따로 필요없으나, 비용관리가 필요한경우에는 Boto3 를 이용한 전체 리소스 정리를 진행합니다.
+  3~5분정도 예상소요되며 S3 버킷 삭제는 개별적으로 객체를 제거 후 버킷삭제를 합니다.
 ---
 
 # 8. MLOps Project 리소스 정리
@@ -8,7 +10,7 @@ description: Boto3 를 이용한 전체 리소스 정리에 3~5분정도 예상�
 
 ![](<../.gitbook/assets/Screen Shot 2021-04-02 at 11.14.00 AM.png>)
 
-&#x20;  2\. 노트북에서 다음 코드를 셀에 입력 한 다음 셀을 실행합니다. '**MLOpsProject**' 프로젝트 이름으로 바꿉니다 . 프로젝트에서 생성 한 서비스 카탈로그 프로비저닝 된 제품이 삭제됩니다. 여기에는 프로젝트 용으로 생성 된 CodeCommit, CodePipeline 및 CodeBuild 리소스가 포함됩니다.
+2\. 노트북에서 다음 코드를 셀에 입력 한 다음 셀을 실행합니다. '**MLOpsProject**' 프로젝트 이름으로 바꿉니다 . 프로젝트에서 생성 한 서비스 카탈로그 프로비저닝 된 제품이 삭제됩니다. 여기에는 프로젝트 용으로 생성 된 CodeCommit, CodePipeline 및 CodeBuild 리소스가 포함됩니다.
 
 ```python
 import boto3
@@ -17,6 +19,6 @@ sm_client=boto3.client("sagemaker")
 sm_client.delete_project(ProjectName="MLOpsProject")
 ```
 
-&#x20;   3\. 프로젝트가 생성 한 AWS CloudFormation 스택을 삭제합니다. 2 개의 스택이 있습니다. 하나는 스테이징 용이고 다른 하나는 프로덕션 용입니다. 모두 삭제합니다.
+3\. 프로젝트가 생성 한 AWS CloudFormation 스택을 삭제합니다. 2 개의 스택이 있습니다. 하나는 스테이징 용이고 다른 하나는 프로덕션 용입니다. 모두 삭제합니다.
 
-&#x20;   4\. S3 버킷안에 객체를 삭제한 후 버킷을 삭제합니다.
+4\. S3 버킷안에 객체를 삭제한 후 버킷을 삭제합니다.

@@ -30,7 +30,7 @@ CodePipelines의 승인하고 Production 추론 엔드포인트가 배포되었�
 
 ![](<../.gitbook/assets/Screen Shot 2021-04-01 at 8.10.31 PM.png>)
 
-6\. SageMaker 메인 화면 '추론'에 Staging과 Prod 엔드포인트를 확인합니다.
+6\. SageMaker 메인 화면 '추론'에 endpoint 클릭, Staging과 Prod 엔드포인트를 확인합니다.
 
 ![](<../.gitbook/assets/Screen Shot 2021-04-01 at 9.42.34 PM.png>)
 
