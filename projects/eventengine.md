@@ -6,6 +6,8 @@ description: >-
 
 # 1. Eventengine 사용
 
+
+
 * [https://dashboard.eventengine.run/login](https://dashboard.eventengine.run/login) 사이트에 접속합니다.
 
 ![](<../.gitbook/assets/image (16).png>)
@@ -15,16 +17,13 @@ description: >-
 
 ![](<../.gitbook/assets/image (17).png>)
 
-* Email One-Time Password(OTP) 클릭후 이메일을 넣으시면 Passcode(6-digit)를 메일로 제공드립니다.&#x20;
+* Email One-Time Password(OTP) 클릭후 이메일을 넣으시면 Passcode(6-digit)를 메일로 제공드립니다.
 
 ![](<../.gitbook/assets/Screen Shot 2021-05-18 at 3.09.47 AM.png>)
 
-* Email One-Time Password(OTP) 클릭후 이메일을 넣으시면 Passcode(6-digit)를 메일로 제공드립니다.&#x20;
 * AWS console 을 클릭합니다.
 
 ![](<../.gitbook/assets/image (6).png>)
-
-
 
 * Open AWS Consoles 를 클릭합니다.
 
